@@ -9,10 +9,10 @@ void main(){
   String Phone=stdin.readLineSync() ?? '';
 
   stdout.write("Enter your Age: ");
-  int age=int.tryparse(stdin.readLineSync() ?? '')?? 0;
+  int age=int.tryParse(stdin.readLineSync() ?? '')?? 0;
 
   stdout.write("Enter your Height: ");
-  double Height=double.tryparse(stdin.readLineSync() ?? '')?? 0;
+  double Height=double.tryParse(stdin.readLineSync() ?? '')?? 0;
 
   stdout.write("Enter your Weight (in kg): ");
   double weight = double.tryParse(stdin.readLineSync() ?? '') ?? 0;
